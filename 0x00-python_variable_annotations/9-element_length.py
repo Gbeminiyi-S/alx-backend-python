@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """This module defines a function `element_length`"""
-from typing import Sequence
-from typing import List
-from typing import Tuple
+from typing import Sequence, Iterable, List, Tuple
 
 
-def element_length(lst: Sequence) -> List[Tuple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Takes a list 'lst' as input and returns a new list of tuples.
 
