@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+""" This module tests the utils package """
 from parameterized import parameterized, parameterized_class
 import unittest
 from utils import access_nested_map
